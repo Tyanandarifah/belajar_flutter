@@ -1,5 +1,6 @@
 import 'package:belajar_flutter/home.dart';
 import 'package:belajar_flutter/login_screen.dart';
+import 'package:belajar_flutter/login_screen_2.dart';
 import 'package:belajar_flutter/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -56,7 +57,7 @@ class _LandingPageState extends State<LandingPage> {
                     side: BorderSide(color: Colors.blue)),
                 onPressed: () async {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return LoginScreen();
+                    return const LoginScreen2();
                   }));
                 },
                 child: const Text(
